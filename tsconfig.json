@@ -1,0 +1,11 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir":"build",
+        "target": "ES6",
+        "lib": ["ES6"], //해당 타입스크립트의 실행환경
+        "strict": true,
+        "esModuleInterop": true,
+        "module": "CommonJS"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coster97/BlockChain_NomadCoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coster97/BlockChain_NomadCoder/issues"
+  },
+  "homepage": "https://github.com/Coster97/BlockChain_NomadCoder#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
